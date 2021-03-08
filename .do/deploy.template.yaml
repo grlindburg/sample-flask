@@ -1,8 +1,6 @@
 spec:
   services:
-    - name: sample-flask
+    - name: sample-python
       git:
         branch: main
-        repo_clone_url: https://github.com/grlindburg/sample-flask.git
-    databases:
-    - name: example-db
+        repo_clone_url: https://github.com/digitalocean/sample-python.git
